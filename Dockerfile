@@ -1,5 +1,5 @@
 FROM centos:8
-MAINTER cybang
+MAINTAINER cybang
 LABEL "purpose"="TEST"
 RUN yum install httpd -y
 ADD test.html /var/www/html
